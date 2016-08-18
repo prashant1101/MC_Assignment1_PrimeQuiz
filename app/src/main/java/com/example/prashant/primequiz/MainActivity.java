@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
 
             Random rand = new Random();
             number = rand.nextInt(1000)+1;
-            num_str = "Is " + String.valueOf(number) + " a Prime Number?";
+            num_str = "" + String.valueOf(number) + " is a Prime Number.";
             num.setText(num_str);
 
         }
